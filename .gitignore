@@ -1,0 +1,16 @@
+# 程序和插件的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制, built with `go test -c`
+*.test
+
+# IDE 文件
+.idea/
+.vscode/
+
+# 系统自动生成的文件
+.DS_Store
